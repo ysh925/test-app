@@ -1,0 +1,10 @@
+Search_Data:
+  search_001: #用例编号
+    test: 1
+    expect_data: 456
+  search_002: #用例编号
+    test: 中文
+    expect_data: 123
+  search_003: #用例编号
+    test: ¥……&
+    expect_data: 456

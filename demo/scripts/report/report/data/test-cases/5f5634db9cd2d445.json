@@ -1,0 +1,119 @@
+{
+  "uid" : "5f5634db9cd2d445",
+  "name" : "test_01",
+  "fullName" : "scripts.test_003#test_01",
+  "historyId" : "8a8750298a1a0b1723ae67f56bad39c8",
+  "time" : {
+    "start" : 1591164477462,
+    "stop" : 1591164477463,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "test_module_01",
+      "time" : {
+        "start" : 1591164477462,
+        "stop" : 1591164477462,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63a8b1af413daaa8",
+        "name" : "这是一个描述",
+        "source" : "63a8b1af413daaa8.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_003"
+  }, {
+    "name" : "host",
+    "value" : "MI-Pro"
+  }, {
+    "name" : "thread",
+    "value" : "1960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_003"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://163.com",
+    "url" : "http://163.com",
+    "type" : "issue"
+  }, {
+    "name" : "http://baidu.com",
+    "url" : "http://baidu.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "17555b9f02465e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591164411847,
+        "stop" : 1591164411848,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "354cf358f77e3c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591163995132,
+        "stop" : 1591163995133,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "29177e37f657ec59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591163821964,
+        "stop" : 1591163821965,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f5634db9cd2d445.json",
+  "parameterValues" : [ ]
+}
